@@ -73,6 +73,8 @@ data.cylinders.head(10)
 data.year.hist()
 data.year.hist(bins=100)
 
+# We can also look at Visual Distributions of Quantitative variables using "sns.histplot(data[*column*], kde = True)
+
 #bar chart of types 
 data.type.value_counts().plot(kind='bar')
 
